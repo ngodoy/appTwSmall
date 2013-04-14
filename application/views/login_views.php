@@ -19,7 +19,7 @@
         'placeholder' => 'user');
     ?>
 
-    <?= form_open('login/success', $atributos); ?>
+    <?= form_open('scaffolding', $atributos); ?>
     <h2 class="pagination-centered">Ingrese los datos correctos  </h2>
     <div class="control-group"> <?= form_input($user) ?></div>
     <div class="control-group"> <?= form_password($passw) ?></div>

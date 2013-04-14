@@ -42,6 +42,9 @@ if (!defined('BASEPATH'))
  */
 
 $route['default_controller'] = "portada";
+$route['scaffolding'] = "login/success";
+
+
 $route['404_override'] = '';
 
 
