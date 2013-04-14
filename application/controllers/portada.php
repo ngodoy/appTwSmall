@@ -17,7 +17,7 @@ class Portada extends CI_Controller {
 
     public function index() {
         $this->load->view('head');
-
+        //$this->load->view('login');
         $this->load->view('footer');
     }
 
