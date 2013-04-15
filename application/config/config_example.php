@@ -225,7 +225,9 @@ $config['cache_path'] = '';
 |
 */
 $config['encryption_key'] = '';
-
+$config['clave_key'] = '';
+$config['key_user'] = '';
+$config['key_pass'] = '';
 /*
 |--------------------------------------------------------------------------
 | Session Variables

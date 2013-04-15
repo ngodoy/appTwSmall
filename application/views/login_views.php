@@ -1,11 +1,9 @@
 <script src="<?= base_url() ?>js/jquery.validate.min.js"></script>
-
-
 <script src="<?= base_url() ?>js/login_views.js"></script>
 
 <div class="container">
     <?php
-    $atributos = array('class' => 'email', 'id' => 'miformulario');
+    $atributos = array('class' => '', 'id' => 'miformulario');
     $passw = array(
         'name' => 'passw',
         'class' => 'input-block-level ',
