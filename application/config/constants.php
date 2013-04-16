@@ -47,6 +47,8 @@ define('FOPEN_READ_WRITE_CREATE_STRICT', 'x+b');
   |
  */
 define('PAGINACION', 20);
+define('NOACTIVO', 0);
+define('ACTIVO', 1);
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

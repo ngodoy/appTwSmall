@@ -24,9 +24,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="<?= base_url() ?>css/glyphicons411twitter.ico">-->
-
+        <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+        <link href="<?= base_url() ?>img/icon/ico_twitter.png" rel="shortcut icon" type="image/ico">
         <script src="<?= base_url() ?>js/jquery-1.9.1.min.js"></script>
         <script src="<?= base_url() ?>js/bootstrap.min.js"></script>
         <script src="<?= base_url() ?>js/prefixfree.min.js"></script>
@@ -46,9 +45,9 @@
                     <a class="brand" href="#">Project name</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
+                            <li class="active"><a href="<?= base_url() ?>login">Home</a></li>
                             <li><a href="#contact">Filter</a></li>
-                            <li><a href="#about">New</a></li>
+                            <li><a href="<?= base_url() ?>login/nuevo">nuevo</a></li>
                             <li><a href="<?= base_url() ?>login/cerrar">Close</a></li>
 
                         </ul>
